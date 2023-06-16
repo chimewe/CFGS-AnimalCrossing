@@ -1,6 +1,6 @@
 body{
   background-image: url("../../../assets/images/fondo2.jpg");
-  background-repeat: repeat;
+  min-height: 230vh;
 }
 
 .header {
@@ -20,6 +20,7 @@ body{
       display: flex;
       justify-content: flex-end;
       margin-bottom: 20px;
+
   }
 
   .content {
@@ -31,6 +32,7 @@ body{
           display: flex;
           justify-content: space-between;
           padding: 0 30px;
+
       }
   }
 }

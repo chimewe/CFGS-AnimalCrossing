@@ -1,13 +1,43 @@
 <app-navbar></app-navbar>
 <div class="body">
   <img src="./../../assets/images/banner2.jpg" height="500px" width="1900px"/>
-  <div class="contenido">
-    <div style="height: auto; width: 50%;" >
+  <br>
+  <br>
+  <div class="contenido" style="display: flex;">
+    <div style="height: auto; width: 40%;">
       <angular-twitter-timeline
       [data]="{sourceType: 'profile', url: 'AC_Canela'}"
-      [opts]="{tweetLimit: 5}"
+      [opts]="{tweetLimit: 3}"
       ></angular-twitter-timeline>
     </div>
+    <div style="margin-left: 5%;">
+      <p style="font-size: 200%; font-family: monospace; font-weight: bold;">¡Bienvenido/a a Animal Crossing Wiki!</p>
+      <div class="image-container">
+        <div class="image-overlay">
+          <a href="https://www.nintendo.es/Juegos/Juegos-de-Nintendo-Switch/Animal-Crossing-New-Horizons-1438623.html"><img src="../../assets/images/index1.jpg"></a>
+          <div class="text-overlay">
+            <p>Comprar juego</p>
+          </div>
+        </div>
+      </div>
+      <div class="image-container">
+        <div class="image-overlay">
+          <a href="https://store.nintendo.es/es/merchandise/shop-by-franchise-merchandise/animal-crossing-merchandise"><img src="../../assets/images/index2.png"></a>
+          <div class="text-overlay">
+            <p>Merchandising</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="image-container">
+        <div class="image-overlay">
+          <a href="https://www.animal-crossing.com/new-horizons/"><img src="../../assets/images/index3.jpg"></a>
+          <div class="text-overlay">
+            <p>Página oficial</p>
+          </div>
+        </div>
+      </div>
   </div>
 </div>
 

@@ -2,10 +2,10 @@
   <mat-card
     *ngFor="let animal of animal$ | async"
     (click)="selectAnimal(animal)"
+    style="background-color: rgb(198, 251, 218);"
   >
-    <mat-card-header>
-      <mat-card-title>{{ animal.name }}</mat-card-title>
-      <mat-card-subtitle>{{ animal.description }}</mat-card-subtitle>
+    <mat-card-header style="justify-content: center;">
+      <mat-card-title >{{ animal.name }}</mat-card-title>
     </mat-card-header>
     <img mat-card-image [src]="animal.imgUrl" alt="Photo of a Animal" />
   </mat-card>

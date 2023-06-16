@@ -6,11 +6,11 @@
     <div class="content">
       <div class="list">
         <div class="list-header">
-          <h3>Lista de publicaciones</h3>
-          <button mat-raised-button color="primary" (click)="addAnimal()">
-            Añadir publicación
-          </button>
+          <h3 style="font-size: xx-large; font-family: monospace;">PUBLICACIONES: </h3>
         </div>
+        <button mat-raised-button color="primary" (click)="addAnimal()" style="margin-left: 3%;">
+          Añadir publicación
+        </button>
         <app-list
           [animal$]="allAnimal$"
           (animalEmitter)="selectAnimal($event)"
@@ -21,6 +21,7 @@
         *ngIf="selectedAnimal"
         (deleteAnimal)="deleteAnimal()"
         (updateAnimal)="updateAnimal()"
+        style="background-color: aliceblue;"
       ></app-detail>
     </div>
   </div>
