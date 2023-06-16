@@ -1,0 +1,11 @@
+.body{
+  background-image: url("../../assets/images/fondo.jpg");
+  background-color: #cccccc;
+}
+
+.contenido{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+

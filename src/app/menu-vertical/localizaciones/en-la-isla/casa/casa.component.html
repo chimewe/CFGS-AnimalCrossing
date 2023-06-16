@@ -1,0 +1,139 @@
+<app-navbar></app-navbar>
+<body>
+  <div class="contenido">
+    <br>
+    <div style="display: flex;">
+      <img src="../../../../../assets/images/iconos/icono-casa.png" height="100" width="100">
+      <h1 style="align-self: center; margin-top: 2%;">Tu casa</h1>
+    </div>
+    <p-divider></p-divider>
+    <p>
+      El aldeano posee una casa que inicialmente será una tienda de campaña. Esta casa podrá mejorarla
+      pagando préstamos a Tom Nook. Las mejoras incluyen ampliaciones de la casa así como nuevas funciones
+      como cambiar las luces, las ventanas o ampliaciones del trastero en el cual podremos guardar lo que deseemos.
+    </p>
+    <p>
+      Los propietarios de casas estarán registrados en la Academia de Artes Decorativas (AAD), la cual se
+      encargará de evaluar tu casa periódicamente y darte consejos. Además, envían regalos por correo a los
+      miembros que tengan casas con las valoraciones más altas o por haber hecho algo reseñable.
+    </p>
+    <p>
+      La decoración de la casa es todo un viaje, puedes cambiar todo a tu gusto. Hay multitud de muebles,
+      papeles de pared, suelos y accesorios para hacer nuestra casa favorita. ¡La creatividad es máxima!
+    </p>
+
+    <br>
+    <h2>Mejoras de la casa</h2>
+    <p-divider></p-divider>
+    <div class="card flex justify-content-center">
+      <p-accordion [activeIndex]="0">
+          <p-accordionTab header="Tienda de campaña">
+              <p>
+                Cuando llegues a la isla deberás instalarte en una tienda de campaña, y luego tendrás que hacer
+                el pago de la factura para cubrir los gastos del Plan de Asentamiento en Islas Desiertas (PAID),
+                ya sea con 49800 bayas o con 5000 millas.
+              </p>
+              <div class="card flex justify-content-center">
+                <p-image src="../../../../../assets/images/casa/casa_tiendaCampania.jpg" alt="Image" width="250" [preview]="true"></p-image>
+                <p-image src="../../../../../assets/images/casa/casa_tiendaCampania2.jpg" alt="Image" width="250" [preview]="true"></p-image>
+              </div>
+          </p-accordionTab>
+          <p-accordionTab header="Casa">
+              <p>
+                Tras pagar la primera factura, Tom Nook te propondrá un préstamo de 98000 bayas, y si lo aceptas,
+                iniciará la construcción de tu nuevo hogar, el cual estará disponible al día siguiente (podrás
+                elegir el color del techo entre ocho diferentes).
+              </p>
+              <div class="card flex justify-content-center">
+                <p-image src="../../../../../assets/images/casa/casa.jpg" alt="Image" width="250" [preview]="true"></p-image>
+                <p-image src="../../../../../assets/images/casa/casa2.png" alt="Image" width="250" [preview]="true"></p-image>
+              </div>
+          </p-accordionTab>
+          <p-accordionTab header="Primera ampliación">
+              <p>
+                Después de hacer el pago del préstamo para tu casa, Tom Nook te ofrecerá un nuevo préstamo de 198000 bayas
+                para hacer que tu vivienda y su trastero sean más grandes. Acéptalo, y así iniciarás la construcción de la
+                ampliación, la cual estará terminada al día siguiente (podrás volver a elegir el color del techo entre ocho diferentes).
+              </p>
+              <div class="card flex justify-content-center">
+                <p-image src="../../../../../assets/images/casa/casa_primeraAmpliacion.jpg" alt="Image" width="250" [preview]="true"></p-image>
+                <p-image src="../../../../../assets/images/casa/casa_primeraAmpliacion2.jpg" alt="Image" width="250" [preview]="true"></p-image>
+              </div>
+          </p-accordionTab>
+          <p-accordionTab header="Segunda ampliación">
+            <p>
+              Cuando hayas pagado el préstamo para la primera ampliación de tu casa, Tom Nook te planteará un préstamo de
+              348000 bayas para ampliar tu hogar todavía más. Acéptalo, y así comenzarás con la obra para ampliar tu casa
+              por segunda vez, la cual estará terminada al día siguiente. Dicha ampliación añadirá una habitación en la parte
+              de atrás y ampliará el trastero, por lo que no cambiará el aspecto exterior de tu vivienda, pero tendrás más
+              espacio por dentro.
+            </p>
+            <div class="card flex justify-content-center">
+              <p-image src="../../../../../assets/images/casa/casa_segundaAmpliacion.jpg" alt="Image" width="250" [preview]="true"></p-image>
+            </div>
+          </p-accordionTab>
+          <p-accordionTab header="Tercera ampliación">
+            <p>
+              Una vez hayas pagado el préstamo para la segunda ampliación de tu casa, Tom Nook te propondrá un préstamo de 548000 bayas para volver a ampliar tu residencia. Acéptalo, y así iniciarás la obra que ampliará tu casa por tercera vez, la cual estará terminada al día siguiente.
+              Dicha ampliación añadirá una habitación en el lado izquierdo de la vivienda y ampliará el trastero (podrás volver a elegir el color del techo entre ocho diferentes).
+            </p>
+            <p>
+              Además, a partir de ese momento podrás remodelar el exterior de tu casa usando el mostrador de urbanismo que atiende Tom Nook. Con este tamaño solo podrás cambiar el color del tejado y el diseño del buzón de correos.
+            </p>
+            <div class="card flex justify-content-center">
+              <p-image src="../../../../../assets/images/casa/casa_terceraAmpliacion.jpg" alt="Image" width="250" [preview]="true"></p-image>
+              <p-image src="../../../../../assets/images/casa/casa_terceraAmpliacion2.png" alt="Image" width="250" [preview]="true"></p-image>
+            </div>
+          </p-accordionTab>
+          <p-accordionTab header="Cuarta ampliación">
+            <p>
+              Cuando hayas pagado el préstamo para la tercera ampliación de tu casa, Tom Nook te ofrecerá un préstamo de 758000 bayas para volver a ampliar tu vivienda. Acéptalo, y así iniciarás la obra que ampliará tu hogar por cuarta vez, la cual añadirá una habitación en el lado derecho de la casa y ampliará el trastero.
+            </p>
+            <p>
+              Además, se añadirá la opción de remodelar la puerta de entrada a la función de reformar tu casa del mostrador de urbanismo que atiende Tom Nook.
+            </p>
+            <div class="card flex justify-content-center">
+              <p-image src="../../../../../assets/images/casa/casa_cuartaAmpliacion.jpg" alt="Image" width="250" [preview]="true"></p-image>
+              <p-image src="../../../../../assets/images/casa/casa_cuartaAmpliacion2.jpg" alt="Image" width="250" [preview]="true"></p-image>
+            </div>
+          </p-accordionTab>
+          <p-accordionTab header="Quinta ampliación">
+            <p>
+              Después de hacer el pago del préstamo para la cuarta ampliación de tu casa, Tom Nook te planteará un préstamo de 1248000 bayas para volver a ampliar tu hogar. Acéptalo, y así iniciarás la obra que ampliará tu vivienda por quinta vez, la cual añadirá un segundo piso a tu casa y ampliará el trastero.
+            </p>
+            <p>
+              Además, se añadirá la opción de cambiar la fachada a la función de reformar tu casa del mostrador de urbanismo que atiende Tom Nook, y de cambiar la posición del buzón.
+            </p>
+            <div class="card flex justify-content-center">
+              <p-image src="../../../../../assets/images/casa/casa_quintaAmpliacion.jpg" alt="Image" width="250" [preview]="true"></p-image>
+              <p-image src="../../../../../assets/images/casa/casa_quintaAmpliacion2.jpg" alt="Image" width="250" [preview]="true"></p-image>
+            </div>
+          </p-accordionTab>
+          <p-accordionTab header="Sexta ampliación">
+            <p>
+              Tras pagar el préstamo para la quinta ampliación de tu casa, Tom Nook te propondrá un préstamo de 2498000 bayas para ampliar tu vivienda todo lo posible. Acéptalo, y así iniciarás la obra que ampliará tu hogar por sexta y última vez, la cual añadirá un sótano a tu casa y ampliará el trastero, por lo que no cambiará el aspecto exterior de tu casa, pero tendrás más espacio por dentro.
+            </p>
+            <p>
+              Además, se añadirá la opción de cambiar la fachada a la función de reformar tu casa del mostrador de urbanismo que atiende Tom Nook, y de cambiar la posición del buzón.
+            </p>
+            <div class="card flex justify-content-center">
+              <p-image src="../../../../../assets/images/casa/casa_sextaAmpliacion.jpg" alt="Image" width="250" [preview]="true"></p-image>
+              <p-image src="../../../../../assets/images/casa/casa_sextaAmpliacion2.jpeg" alt="Image" width="250" [preview]="true"></p-image>
+            </div>
+          </p-accordionTab>
+          <p-accordionTab header="Mejoras del DLC: Happy Home Paradise">
+            <ul>
+              <li>Pulido de muebles</li>
+              <li>Personalización de entrada y ventanas</li>
+              <li>Muros de separación</li>
+              <li>Personalización del efecto aplicado al pulir enseres</li>
+              <li>Personalización de la iluminación</li>
+              <li>Ambientes sonoros</li>
+              <li>Pilares y encimeras</li>
+            </ul>
+          </p-accordionTab>
+      </p-accordion>
+    </div>
+  </div>
+</body>
+

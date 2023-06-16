@@ -1,0 +1,11 @@
+<div class="detail">
+  <h2>Nombre: {{ animal.name }}</h2>
+  <h4>Descripción: {{ animal.description }}</h4>
+  <div class="content">
+    <img [src]="animal.imgUrl" />
+  </div>
+  <div>
+    <button (click)="update()" mat-raised-button color="primary">Editar</button>
+    <button (click)="delete()" mat-raised-button color="warn">Borrar</button>
+  </div>
+</div>

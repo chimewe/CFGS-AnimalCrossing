@@ -1,0 +1,28 @@
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="../../../assets/images/logo.png" width="150" height="150"/>
+    </div>
+    <div class="content">
+      <div class="list">
+        <div class="list-header">
+          <h3>Lista de publicaciones</h3>
+          <button mat-raised-button color="primary" (click)="addAnimal()">
+            Añadir publicación
+          </button>
+        </div>
+        <app-list
+          [animal$]="allAnimal$"
+          (animalEmitter)="selectAnimal($event)"
+        ></app-list>
+      </div>
+      <app-detail
+        [animal]="selectedAnimal"
+        *ngIf="selectedAnimal"
+        (deleteAnimal)="deleteAnimal()"
+        (updateAnimal)="updateAnimal()"
+      ></app-detail>
+    </div>
+  </div>
+</body>
+

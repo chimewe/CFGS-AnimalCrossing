@@ -1,0 +1,75 @@
+<app-navbar></app-navbar>
+<body>
+  <div class="contenido">
+    <br>
+    <div style="display: flex;">
+      <img src="../../../../assets/images/iconos/icono-muebles.png" height="100" width="100">
+      <h1 style="align-self: center; margin-top: 2%;">Muebles</h1>
+    </div>
+    <p-divider></p-divider>
+    <p>
+      Los muebles o enseres son elementos utilizados en la serie Animal Crossing para decorar y personalizar el interior de las casas.
+      Puede considerarse un aspecto importante de la serie para los jugadores que desean completar series de muebles o decorar sus casas.
+      Hay muchos usos para los muebles, así como muchos tipos disponibles.
+    </p>
+    <p>
+      Una característica que se basa en los muebles es la Academia de Artes Decorativas, que puntúa el diseño de la casa de un Jugador.
+      Puntuaciones lo suficientemente altas ganarán premios para el Jugador, si los muebles son colocados correctamente (usando el Feng-Shui si es posible).
+      Las múltiples gamas de muebles disponibles para el jugador varían según el tema, el estilo y el uso. Algunos muebles tienen usos y características únicas.
+      Por ejemplo, los reproductores de música se utilizan para reproducir la gran variedad de canciones de Totakeke.
+    </p>
+    <br>
+    <h2>Cómo conseguir muebles</h2>
+    <p-divider></p-divider>
+    <p>Hay múltiples formas de conseguir ropa, aquí están todas:</p>
+    <ul>
+      <li>Puedes comprar muebles en MiniNook y a Ladino.</li>
+      <li>Hablando con vecinos, al regalarles algo o al entregarles algún objeto perdido, ellos te obsequiaran con muebles.</li>
+      <li>Dentro de botellas con mensaje o explotando globos que sobrevuelan la isla.</li>
+      <li>Canjeando millas en la terminal Nook de la oficina de gestión vecinal.</li>
+      <li>Dentro del depósito de reciclaje de la oficina de gestión vecinal.</li>
+      <li>Fabricando proyectos de bricolaje.</li>
+      <li>Al sacudir árboles en ocasiones pueden darte muebles.</li>
+      <li>Al ayudar a Gulliver y Gullivarrr, te obsequiarán con ropa a través del correo.</li>
+      <li>Como premios de eventos especiales, cumpleaños, torneos, año nuevo.</li>
+      <li>Como regalos de tu madre que te llegarán por correo.</li>
+    </ul>
+    <br>
+    <h2>Personalizar muebles con Al y Paca</h2>
+    <p-divider></p-divider>
+    <p>
+      El aldeano puede modificar la apariencia de sus muebles con la ayuda de Al y Paca.
+      En Cayo Fauno a cambio de bayas este matrimonio puede darle una nueva vida a tus muebles.
+    </p>
+    <br>
+    <div class="card flex justify-content-center" style="display: flex; justify-content: center; align-items: center;">
+      <p-image src="../../../../assets/images/muebles/muebles_alpaca.png" alt="Image" width="250" [preview]="true" style="margin-right: 5%;"></p-image>
+      <p-image src="../../../../assets/images/muebles/muebles_alpaca2.jpeg" alt="Image" width="250" [preview]="true"></p-image>
+    </div>
+    <br>
+    <h2>Imágenes</h2>
+    <p-divider></p-divider>
+    <section class="gallery" style="display: flex; justify-content: center; align-items: center;">
+      <div class="container">
+        <div class="img-container">
+          <img src="../../../../assets/images/muebles/muebles3.jpg" alt="Image" id="preview">
+          <div class="img-prev text-center">
+            <div class="img-slide">
+              <img src="../../../../assets/images/muebles/muebles3.jpg" alt="Image1" (click)="getImageSrc($event)">
+            </div>
+            <div class="img-slide">
+              <img src="../../../../assets/images/muebles/muebles4.jpg" alt="Image2" (click)="getImageSrc($event)">
+            </div>
+            <div class="img-slide">
+              <img src="../../../../assets/images/muebles/muebles5.jpg" alt="Image3" (click)="getImageSrc($event)">
+            </div>
+            <div class="img-slide">
+              <img src="../../../../assets/images/muebles/muebles6.jpg" alt="Image4" (click)="getImageSrc($event)">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+

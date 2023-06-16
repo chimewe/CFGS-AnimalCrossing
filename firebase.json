@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "AnimalCrossing-Wiki",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}

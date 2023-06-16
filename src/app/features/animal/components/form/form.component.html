@@ -1,0 +1,18 @@
+<form [formGroup]="form">
+  <mat-form-field>
+    <mat-label>Nombre</mat-label>
+    <input required formControlName="name" class="form-control" placeholder="Foto de mi isla" type="text" matInput />
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Descripción</mat-label>
+    <input required formControlName="description" class="form-control" placeholder="Mi isla llamada Chaiko" type="text" matInput />
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>URL Imagen</mat-label>
+    <input matInput required formControlName="imgUrl" class="form-control" placeholder="https://foto.png" type="text" />
+  </mat-form-field>
+  <button type="button" mat-raised-button (click)="submit()" color="primary" [disabled]="!form.valid">
+    Hecho
+  </button>
+</form>
+

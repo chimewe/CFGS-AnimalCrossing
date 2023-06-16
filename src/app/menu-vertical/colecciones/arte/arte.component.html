@@ -1,0 +1,39 @@
+<app-navbar></app-navbar>
+<body>
+  <div class="contenido">
+    <br>
+    <div style="display: flex;">
+      <img src="../../../../assets/images/iconos/icono-arte.png" height="100" width="100">
+      <h1 style="align-self: center; margin-top: 2%;">Arte</h1>
+    </div>
+    <p-divider></p-divider>
+    <p>
+      Existen diversas obras de arte entre pinturas y esculturas, y todas las podrás conseguir comprándoselas a
+      un personaje llamado Ladino. Dichas obras de arte podrás donarlas al museo, pero solo si has comprado las auténticas,
+      ya que Ladino no es muy de fiar y suele vender falsificaciones de la mayoría de las obras,
+      así que tendrás que tener cuidado de no dejarte engañar.
+    </p>
+    <div class="card flex justify-content-center">
+      <p-accordion [activeIndex]="0">
+          <p-accordionTab header="Cuadros">
+            <div class="card flex justify-content-center">
+              <p-image src="../../../../../assets/images/colecciones/arte/arte1.png" alt="Image" width="250" [preview]="true"></p-image>
+              <p-image src="../../../../../assets/images/colecciones/arte/arte2.png" alt="Image" width="250" [preview]="true"></p-image>
+            </div>
+          </p-accordionTab>
+          <p-accordionTab header="Esculturas">
+            <div class="card flex justify-content-center">
+              <p-image src="../../../../../assets/images/colecciones/arte/arte3.png" alt="Image" width="250" [preview]="true"></p-image>
+              <p-image src="../../../../../assets/images/colecciones/arte/arte4.png" alt="Image" width="250" [preview]="true"></p-image>
+            </div>
+          </p-accordionTab>
+      </p-accordion>
+    </div>
+    <div style="display: flex;">
+      <img src="../../../../../assets/images/colecciones/arte/arte5.png" height="300" width="500"/>
+      <img src="../../../../../assets/images/colecciones/arte/arte6.png" height="300" width="500"/>
+      <img src="../../../../../assets/images/colecciones/arte/arte7.png" height="300" width="500"/>
+    </div>
+  </div>
+</body>
+

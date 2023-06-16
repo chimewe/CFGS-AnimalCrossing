@@ -1,0 +1,119 @@
+<app-navbar></app-navbar>
+<body>
+  <div class="contenido">
+    <br>
+    <div style="display: flex;">
+      <img src="../../../../../assets/images/iconos/icono-oficinaGestion.png" height="100" width="100">
+      <h1 style="align-self: center; margin-top: 2%;">Oficina de Gestión Vecinal</h1>
+    </div>
+    <p-divider></p-divider>
+    <p>
+      La oficina de gestión vecinal es un edificio de New Horizons y es el equivalente del ayuntamiento de juegos anteriores.
+      Comienza siendo una pequeña carpa, pero a medida que la isla crece, se actualiza a un edificio permanente.
+      Está abierto las 24 horas del día.
+    </p>
+    <br>
+    <h2>Carpa</h2>
+    <p-divider></p-divider>
+    <p>
+      La carpa es la primera versión de la oficina de gestión vecinal. Aquí se instalan Tom Nook y Tendo y Nendo,
+      ofreciendo la mesa de bricolaje, la Terminal Nook y la papelera de reciclaje.
+    </p>
+    <p>
+      Tom Nook ofrecerá talleres de bricolaje y guiará al jugador en el desarrollo de la isla. Tendo tendrá una
+      pequeña selección de artículos a la venta, y le comprará artículos al jugador.
+    </p>
+    <p>
+      Al construir MiniNook, Tendo y Nendo se trasladaran allí. Durante el tiempo que permanezca construida la carpa será la
+      única ocasión en que el jugador pueda vender directamente sus objetos las 24 horas del día.
+    </p>
+    <div style="display: flex;">
+      <img src="../../../../../assets/images/oficina-gestion/gestion-vecinal-1.jpg" height="300" width="500"/>
+      <img src="../../../../../assets/images/oficina-gestion/gestion-vecinal-2.png" height="300" width="500"/>
+    </div>
+    <br>
+    <h2>Edificio</h2>
+    <p-divider></p-divider>
+    <p>
+      Después de que el jugador construya MiniNook, abra el museo y otros tres vecinos se hayan mudado a la isla,
+      Tom Nook decidirá construir un edificio permanente para la oficina de gestión vecinal. Al abrir, se ofrecerán
+      todos los servicios que se ofrecían en la carpa (con excepción de la tienda), pero ahora Canela servirá a Tom
+      Nook como personal de soporte.
+    </p>
+    <p>
+      Canela permitirá al jugador cambiar la bandera y melodía de su isla, y también se le puede pedir que obligue a
+      aldeanos a cambiar su vestimenta o forma de hablar. Tom Nook ahora ofrecerá proyectos de infraestructura, como
+      la construcción de puentes y rampas, o el traslado de casas o la mayoría de los edificios a nuevos sitios.
+    </p>
+    <div style="display: flex;">
+      <img src="../../../../../assets/images/oficina-gestion/gestion-vecinal-3.jpg" height="300" width="500"/>
+      <img src="../../../../../assets/images/oficina-gestion/gestion-vecinal-4.jpg" height="300" width="500"/>
+      <img src="../../../../../assets/images/oficina-gestion/gestion-vecinal-5.jpeg" height="300" width="500"/>
+    </div>
+    <br>
+    <h2>Mostrador de urbanismo (Tom Nook)</h2>
+    <p-divider></p-divider>
+    <p>
+      El mostrador de urbanismo está atendido por Tom Nook y aparte de sus tareas habituales,
+      se ocupará del urbanismo de la isla por medio de pequeñas obras las cuales tendrás que pagar con bayas.
+      Puedes construir puentes, trasladarlos o derribarlos, construir y mover rampas, mover edificiones.
+    </p>
+    <p>
+      Aquí es donde puedes pedirle a Tom Nook las distintas reformas de tu casa, como ampliar el trastero
+      cambiar el aspecto exterior de esta o ampliarla.
+    </p>
+    <br>
+    <h2>Mostrador de Canela</h2>
+    <p-divider></p-divider>
+    <p>
+      Canela se encargará de temas generales de la isla, como cambiar la melodía que suena al hablar con tus vecinos,
+      cambiar el diseño de la bancera de la oficina y el aeródromo o resolver tus problemas con otros residentes.
+    </p>
+    <p>
+      También puedes pedirle a Canela que emita ordenanzas. Algunas de ellas son para proteger el entorno de la isla,
+      otras para que haya más vida nocturna o diurna y otras para la economía de la isla.
+    </p>
+    <br>
+    <h2>Terminal Nook</h2>
+    <p-divider></p-divider>
+    <p>
+      Esta especie de cajero automático cuenta con diversos servicios, y si accedes a él a diario recibirás millas de regalo (cuantos más días seguidos, más millas).
+    </p>
+    <div class="card flex justify-content-center">
+      <p-accordion [activeIndex]="0">
+          <p-accordionTab header="TeleNook">
+              <p>
+                Un catálogo de objetos difíciles de encontrar en la isla que podrás comprar a cambio de bayas. Después de que la tienda abra sus puertas, se creará un catálogo que permitirá a los clientes ver los productos que ya tienen o que ya han comprado. Los artículos que se puedan comprar se podrán pedir directamente por el catálogo.
+              </p>
+              <div class="card flex justify-content-center">
+                <p-image src="../../../../../assets/images/oficina-gestion/gestion-vecinal-6.png" alt="Image" width="250" [preview]="true"></p-image>
+                <p-image src="../../../../../assets/images/oficina-gestion/gestion-vecinal-7.png" alt="Image" width="250" [preview]="true"></p-image>
+              </div>
+          </p-accordionTab>
+          <p-accordionTab header="Bayero automático">
+              <p>
+                Un cajero en el que podrás ingresar o retirar bayas. También podrás usarlo para pagar tus deudas con las bayas que hayas ingresado previamente.
+              </p>
+              <div class="card flex justify-content-center">
+                <p-image src="../../../../../assets/images/oficina-gestion/gestion-vecinal-8.jpg" alt="Image" width="250" [preview]="true"></p-image>
+              </div>
+          </p-accordionTab>
+          <p-accordionTab header="Invitar campista amiibo">
+              <p>
+                Esta opción estará disponible cuando el sexto vecino se instale en tu isla. Accede a ella y podrás usar amiibo para invitar a campistas a la zona de acampada, lo cual es otra manera de encontrar posibles vecinos para tu isla.
+              </p>
+          </p-accordionTab>
+          <p-accordionTab header="Canjear millas Nook">
+            <p>
+              Esta opción se desbloquea después de pagar la primera factura a Tom Nook, y sirve para adquirir artículos a cambio de millas+. El contenido varía dependiendo de lo que hayas avanzado en el juego.
+            </p>
+            <div class="card flex justify-content-center">
+              <p-image src="../../../../../assets/images/oficina-gestion/gestion-vecinal-9.jpeg" alt="Image" width="250" [preview]="true"></p-image>
+              <p-image src="../../../../../assets/images/oficina-gestion/gestion-vecinal-10.png" alt="Image" width="250" [preview]="true"></p-image>
+            </div>
+          </p-accordionTab>
+      </p-accordion>
+    </div>
+  </div>
+</body>
+

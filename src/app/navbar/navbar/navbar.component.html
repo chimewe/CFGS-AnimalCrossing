@@ -1,0 +1,12 @@
+<ng-container>
+  <p-menubar [model]="itemsHorizontal">
+    <ng-template pTemplate="start">
+      <img src="../assets/images/logo.png" height="60" class="mr-2" routerLink="/index"/>
+    </ng-template>
+  </p-menubar>
+  <div style="display: flex;">
+    <div class="card flex justify-content-center" style="padding-right: 40px;">
+      <p-panelMenu [model]="itemsVertical" [style]="{'width':'300px'}"></p-panelMenu>
+    </div>
+  </div>
+</ng-container>

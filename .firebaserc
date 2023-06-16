@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "animal-crossing-wiki-chime": {
+      "hosting": {
+        "AnimalCrossing-Wiki": [
+          "animal-crossing-wiki-chime"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "animal-crossing-wiki-chime"
+  }
+}

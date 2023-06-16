@@ -1,0 +1,26 @@
+body{
+  background-image: url("../../../../../assets/images/fondo2.jpg");
+  min-height: 150vh;
+}
+
+.contenido{
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family: monospace;
+  font-size: x-large;
+  text-align: justify;
+}
+
+h1{
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 200%;
+  text-align: justify;
+}
+
+h2{
+  font-family: monospace;
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: justify;
+}

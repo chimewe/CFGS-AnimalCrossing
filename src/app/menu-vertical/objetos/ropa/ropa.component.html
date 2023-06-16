@@ -1,0 +1,75 @@
+<app-navbar></app-navbar>
+<body>
+  <div class="contenido">
+    <br>
+    <div style="display: flex;">
+      <img src="../../../../assets/images/iconos/icono-ropa.png" height="100" width="100">
+      <h1 style="align-self: center; margin-top: 2%;">Ropa</h1>
+    </div>
+    <p-divider></p-divider>
+    <p>
+      La ropa es un objeto muy importante en la saga. Podemos encontrar muchas prendas, de muchos estilos y colores.
+      En Animal Crossing New Horizons puedes equiparte la ropa desde tu inventario o usando armarios, tocadores e incluso
+      neveras que tengas en casa. Además de vestir las prendas puedes usarlas para decorar estancias, regalarlas a otros vecinos
+      o venderlas.
+
+      La ropa es un elemento recurrente en la serie de Animal Crossing, que juega un papel importante en la personalización del jugador y en la apariencia de los vecinos. Esta puede ser obtenida comprándola en las Hermanas Manitas, como premio al realizar diversos recados a los vecinos o pidiéndola por catálogo en caso de haberla obtenido previamente.
+    </p>
+
+    <br>
+    <h2>Cómo conseguir ropa y accesorios</h2>
+    <p-divider></p-divider>
+    <p>Hay múltiples formas de conseguir ropa, aquí están todas:</p>
+    <ul>
+      <li>Puedes comprarla en la sastrería, en la terminal Nook de la oficina de gestión vecinal, en el puesto de Betunio y en la vitrina de la tienda MiniNook.</li>
+      <li>Hablando con vecinos, al regalarles algo o al entregarles algún objeto perdido, ellos te obsequiaran con ropa.</li>
+      <li>Dentro de botellas con mensaje o explotando globos que sobrevuelan la isla.</li>
+      <li>Canjeando millas en la terminal Nook de la oficina de gestión vecinal.</li>
+      <li>Dentro del depósito de reciclaje de la oficina de gestión vecinal.</li>
+      <li>Fabricando proyectos de bricolaje.</li>
+      <li>Cuando Tili te proponga un estilo de moda te premiará al satisfacer su propuesta.</li>
+      <li>Al ayudar a Gulliver y Gullivarrr, te obsequiarán con ropa a través del correo.</li>
+      <li>Como premios de eventos especiales, cumpleaños, torneos, año nuevo.</li>
+      <li>Como regalos de Dodo Airlines por usar sus servicios varias veces.</li>
+      <li>Como regalos de tu madre que te llegarán por correo.</li>
+    </ul>
+
+    <br>
+    <h2>Diseños personalizados en New Horizons</h2>
+    <p-divider></p-divider>
+    <p>
+      En AC New Horizons podemos crear y descargar diseños personalizados creados por la comunidad.
+      Para utilizar estos diseños solo tenemos que ir a Hermanas Manitas y utilizar la pantalla interactiva que tienen en la
+      tienda. Aquí encontrarás un catálogo enorme lleno de diseños realizados por la comunidad ¡la creatividad no tiene límites!
+    </p>
+    <br>
+    <div class="card flex justify-content-center" style="display: flex; justify-content: center; align-items: center;">
+        <p-image src="../../../../assets/images/ropa/ropa_ejemplo.jpg" alt="Image" width="250" [preview]="true" style="margin-right: 5%;"></p-image>
+        <p-image src="../../../../assets/images/ropa/ropa_ejemplo2.png" alt="Image" width="250" [preview]="true"></p-image>
+    </div>
+    <br>
+    <h2>Imágenes</h2>
+    <p-divider></p-divider>
+    <section class="gallery" style="display: flex; justify-content: center; align-items: center;">
+      <div class="container">
+        <div class="img-container">
+          <img src="../../../../assets/images/ropa/ropa7.jpg" alt="Image" id="preview">
+          <div class="img-prev text-center">
+            <div class="img-slide">
+              <img src="../../../../assets/images/ropa/ropa7.jpg" alt="Image1" (click)="getImageSrc($event)">
+            </div>
+            <div class="img-slide">
+              <img src="../../../../assets/images/ropa/ropa2.jpg" alt="Image2" (click)="getImageSrc($event)">
+            </div>
+            <div class="img-slide">
+              <img src="../../../../assets/images/ropa/ropa5.jpg" alt="Image3" (click)="getImageSrc($event)">
+            </div>
+            <div class="img-slide">
+              <img src="../../../../assets/images/ropa/ropa.jpg" alt="Image4" (click)="getImageSrc($event)">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
